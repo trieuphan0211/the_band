@@ -1,0 +1,39 @@
+/* PC */
+@media (min-width: 1024px){
+    
+}
+@media (min-width:740px) and (max-width:1023px){
+    
+}
+@media (max-width:740px){
+    #header{
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav .subnav{
+        position: initial;
+    }
+    #nav .subnav li a{
+        color: #fff;
+        background-color: #333;
+        padding: 5px 41px;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+#nav > li:first-child {
+    display:inline-block;
+}
+    #header .search-button{
+        display: none;
+    }
+
+}
